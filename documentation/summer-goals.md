@@ -1,21 +1,25 @@
 # Summer Work To-Do List
 
-## Big Ticket Items
-- [ ] Create new floor plans and flowchart
-- [ ] Clean up scripts and organize RPI file structure
+## Future Items
 - [ ] Real-time data viz on website - Learn JavaScript, HTML/CSS
+    - [ ] Add user authentication to website so specific users see specifc things
 - [ ] Feed Rebecca's data into a SQL database on cPanel
-- [ ] Hook up RPis to new infrastructur - Dependent upon Eric's needs
+- [ ] Hook up RPis to new infrastructure - Dependent upon Eric's needs
 - [ ] Make pressure, humidity sensor - Consult with Eric, John about implementation specifics
+- [ ] Make cross-platform app with user authentication
 
 ## Things to do now
 - [x] Create new floor plans and flowchart
     - [x] Re-do flowchart using plantUML 
+        - [ ] Continue working on flowchart
+            - Need to represent building distances
+            - Need to represent 
     - [ ] Re-do floorplans using iPad, then convert to SVG
         - [ ] Necessary for adding JS interactivity later
             - [ ] idea is to hover over meters, get real-time summary data, then click and get real-time graph
 
 - [ ] Update 5's reading.txt and lost data
+    - [ ] Update 7 from 27
     - Make a python script that will update reading.txt and fill in the missing data
     - Consult with Eric about how to implement this, because Rebecca's programs depend on the reading.txt files and the csvs
 
@@ -32,4 +36,14 @@
     - Log data as a CSV file on all sorts of health metrics
 
 - [ ] Create RPi health analysis/alert script(s)
+
+- [ ] Set up website dev workflow
+    - [ ] Figure out how to locally (cross-platform) connect to shared directory 
+
+- [ ] Document technologies
+    - [ ] How to use git
+    - [ ] How to navigate the GitHub
+    - [ ] How to use the Bash Shell
+    - [ ] How to program properly in Python
+
 
