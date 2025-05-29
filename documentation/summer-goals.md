@@ -12,8 +12,9 @@
 - [x] Create new floor plans and flowchart
     - [x] Re-do flowchart using plantUML 
         - [ ] Continue working on flowchart
-            - Need to represent building distances
-            - Need to represent 
+            - Need to represent helium pipe line distances
+            - Need to represent buildings (color code)
+                - [ ] Use IPs.json???
     - [ ] Re-do floorplans using iPad, then convert to SVG
         - [ ] Necessary for adding JS interactivity later
             - [ ] idea is to hover over meters, get real-time summary data, then click and get real-time graph
@@ -21,7 +22,6 @@
 - [ ] Update 5's reading.txt and lost data
     - [ ] Update 7 from 27
     - Make a python script that will update reading.txt and fill in the missing data
-    - Consult with Eric about how to implement this, because Rebecca's programs depend on the reading.txt files and the csvs
 
 - [ ] Clean up scripts and organize RPI file structure
     - Format, comment, and add type hints and docstrings to python files
@@ -37,6 +37,10 @@
 
 - [ ] Create RPi health analysis/alert script(s)
 
+- [ ] Finish setting up RPi dev workflow
+    - [ ] Make sure crontabs are the same throughout and are implemented as such
+        - [ ] Use sudo to do this
+
 - [ ] Set up website dev workflow
     - [ ] Figure out how to locally (cross-platform) connect to shared directory 
 
@@ -45,5 +49,3 @@
     - [ ] How to navigate the GitHub
     - [ ] How to use the Bash Shell
     - [ ] How to program properly in Python
-
-
