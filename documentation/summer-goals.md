@@ -46,6 +46,6 @@
 
 - [ ] Document technologies
     - [ ] How to use git
-    - [ ] How to navigate the GitHub
+    - [x] How to navigate the GitHub
     - [ ] How to use the Bash Shell
     - [ ] How to program properly in Python
