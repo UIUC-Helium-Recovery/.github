@@ -2,13 +2,13 @@
 
 ## Table of Contents
 
-- GitHub Repository Introduction
-    - .github
-    - RPis
-    - medusa
-- Project Management
-    - Our GitHub Project
-    - Issue Workflow
+- [GitHub Repository Introduction](#github-repository-introduction)
+    - [.github](#github)
+    - [RPis](#rpis)
+    - [medusa](#medusa)
+- [Project Management](#project-management)
+    - [Our GitHub Project](#our-github-project)
+    - [Issue Workflow](#issue-workflow)
 
 ## GitHub Repository Introduction
 There are three Git repositories hosted on GitHub under the perview of the UIUC Helium Recovery Organization. They are:
