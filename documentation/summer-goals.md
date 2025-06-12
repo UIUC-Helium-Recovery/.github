@@ -1,5 +1,10 @@
 # Summer Work To-Do List
 
+- **Author**: Luke Marren
+- **Recent Updates**:
+  - Date: 6-12-25
+  - Maintainer(s): Luke Marren
+
 ## Future Items
 - [ ] Real-time data viz on website - Learn JavaScript, HTML/CSS
     - [ ] Add user authentication to website so specific users see specifc things
@@ -10,7 +15,7 @@
 
 ## Things to do now
 - [x] Create new floor plans and flowchart
-    - [x] Re-do flowchart using plantUML 
+    - [x] Re-do flowchart using plantUML
         - [ ] Continue working on flowchart
             - Need to represent helium pipe line distances
             - Need to represent buildings (color code)
@@ -42,7 +47,8 @@
         - [ ] Use sudo to do this
 
 - [ ] Set up website dev workflow
-    - [ ] Figure out how to locally (cross-platform) connect to shared directory 
+    - [x] Figure out how to locally (cross-platform) connect to shared directory
+        - [ ] Write documentation on how to do so
     - [ ] Use .env, pre-hook-commits with python scipt to change file paths
 
 - [ ] Document technologies

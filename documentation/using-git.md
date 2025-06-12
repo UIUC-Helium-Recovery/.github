@@ -1,5 +1,10 @@
 # Using Git for Version Control
 
+- **Author**: Luke Marren
+- **Recent Updates**:
+  - Date: 6-2-25
+  - Maintainer(s): Luke Marren
+
 ## Table of Contents
 
 - [What is Git?](#what-is-git)
@@ -41,16 +46,16 @@ Since all of the Helium Recovery Project's repos are already made, it's best to 
 
 Here's a walk-through on doing the above:
 
-1. In your terminal, navigate to the directory (e.g., `/User/work/`) you'd like to put all our organization's repositories into.
-2. At the root of that repository (i.e., inside `/User/work/` and not a child directory of it), type the following command in your terminal, replacing `repo-name` with either `.github`, `RPis`, or `medusa`:
+1. In your terminal, navigate to the directory (e.g., `/User/work/`) you'd like to put our organization's repositories (except for `RPis` - see separate documentation for accessing that repo) into.
+2. At the root of that repository (i.e., inside `/User/work/` and not a child directory of it), type the following command in your terminal, replacing `repo-name` with either `.github`, or `medusa`:
 
 ```git clone git@github.com:UIUC-Helium-Recovery/repo-name.git```
 
-3. The above command should clone the specified repo into a new folder with the same name as the repo. 
+3. The above command should clone the specified repo into a new folder with the same name as the repo.
     - E.g., if you cloned `medusa`, then you should be able to see it using the `ls` command. The aboslute path to this folder would be `/User/work/medusa/`.
 4. Go inside the new directory using the `cd` command.
 5. "Fetch" all the branches on the remote repo using `git fetch origin`
-    - This makes your local Git repo aware of all the branches on the remote repo *and* it clones the main/default repo (e.g., `cPanel` from `medusa`). 
+    - This makes your local Git repo aware of all the branches on the remote repo *and* it clones the main/default repo (e.g., `cPanel` from `medusa`).
 6. Display the remote branches you now can track on your local repo using `git branch -r`
 7. If you'd like to have a copy of a specific branch on the remote, like `dev`, run `git checkout dev`.
 
@@ -70,7 +75,7 @@ Here's a workflow we should all adhere to while developing to ensure we don't
 
 ### Macro Workflow: Issue, Branch, Code, Pull Request, Merge
 
-Whenever you want to change something that will eventually directly affect how the Pis or the website works, follow this workflow. 
+Whenever you want to change something that will eventually directly affect how the Pis or the website works, follow this workflow.
 
 **Note**: All of this is done in GitHub (aside from the coding part).
 
@@ -83,8 +88,8 @@ Whenever you want to change something that will eventually directly affect how t
 4. Pull Request
     - When you're ready to add your code back to the `main/default` branch, go to the GitHub, submit a pull request for your branch and the `dev` branch (**not** the main/default just yet), and notify coworkers of your work (text/email them). Make sure your `pull request` adequately summarizes the changes you made to your feature branch.
 5. Merge (or go back to the drawing board)
-    - When everyone has checked over the pull-request, approved of them, and resolved potential `merge conflicts`, go ahead and put the pull request through. 
-    
+    - When everyone has checked over the pull-request, approved of them, and resolved potential `merge conflicts`, go ahead and put the pull request through.
+
 If no issues seem to arise on the `dev` branch, pull the `dev` branch to the `main/default`.
 
 ### Constant Workflow: Branch, Checkout, Fetch, Diff, Cherrypick
@@ -114,10 +119,10 @@ When working locally on your feature branch and trying to ensure the remote feat
     - Running `git status` shows you if you have any untracked or unstaged (not added to be commited and pushed) changes on your local machine. Staged changes will be in green and untracked/unstaged changes will be in red.
 2. Add
     - If there's a change you'd like to add to be committed, add it using `git add [FILENAME]`.
-    - If you'd like to do this for all untracked/unstaged changes in your repo, run the command `git add .`. 
+    - If you'd like to do this for all untracked/unstaged changes in your repo, run the command `git add .`.
     - Alternatively, you can list as many filenames out as you'd like.
 3. Status
-    - Run `git status` again to check if the changes you want to be tracked are in green. 
+    - Run `git status` again to check if the changes you want to be tracked are in green.
     - It's a good idea to run git status very frequently so you remember to commit early and often.
 4. Commit
     - When you're ready to package your changes up to be sent to the remote GitHub repository, run `git commit -m "[AN INFORMATIVE MESSAGE]"`.
@@ -130,7 +135,7 @@ When working locally on your feature branch and trying to ensure the remote feat
 
 ### Step One: Don't Panic
 
-Excluding John and Dom, we've all destroyed one part of the system of another. I.e., I have destroyed parts of the system before. 
+Excluding John and Dom, we've all destroyed one part of the system of another. I.e., I have destroyed parts of the system before.
 
 But worry not! As long as you did not go onto the GitHub and delete the main/default branch, your changes may be reverted.
 

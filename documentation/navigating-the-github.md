@@ -1,5 +1,10 @@
 # Navigating the UIUC Helium Recovery Organziation GitHub
 
+- **Author**: Luke Marren
+- **Recent Updates**:
+  - Date: 6-2-25
+  - Maintainer(s): Luke Marren
+
 ## Table of Contents
 
 - [GitHub Repository Introduction](#github-repository-introduction)
@@ -15,7 +20,7 @@ There are three Git repositories hosted on GitHub under the perview of the UIUC 
 
 ### .github
 
-- **Quick Summary**: This is a special repo that GitHub uses to automatically create a README file for the organization. 
+- **Quick Summary**: This is a special repo that GitHub uses to automatically create a README file for the organization.
 - The current org README is located [here](github.com/UIUC-Helium-Recovery/profile/README.md) and is displayed as the `Helium Recovery Handbook` on the org's homepage.
 - Also inside this repo is documentation written in markdown (e.g., `navigating-the-github.md`). It's easier to write quick documentation in markdown than on the box, especially if you want to include code blocks.
 
@@ -43,10 +48,10 @@ There are three Git repositories hosted on GitHub under the perview of the UIUC 
 In addition to our repos, we have an associated project called the `Helium Recovery Project` to help us communicate with each other over GitHub for code reviews on issues, pull-requests, and other project management duties.
 
 ### Issue Workflow
-Each time there's a bug in our code, need for documentation, new feature, ... , etc., we can create a new issue under the `issues` tab in the `RPis` or `medusa` repos. Make sure to: 
+Each time there's a bug in our code, need for documentation, new feature, ... , etc., we can create a new issue under the `issues` tab in the `RPis` or `medusa` repos. Make sure to:
 
-- classify the issue correctly (e.g., as a bug, documentation, enhancement, ... , etc.), 
-- assign someone (such as yourself) to the issue, 
+- classify the issue correctly (e.g., as a bug, documentation, enhancement, ... , etc.),
+- assign someone (such as yourself) to the issue,
 - link the issue with with the `Helium Recovery Project`,
 - and, **most importantly**, create a new branch off the repo's main branch for the issue (this is done after issue creation). This is so that you don't accidentally edit the dev/main branches unintendedly or mess with someone else's code.
 
