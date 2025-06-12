@@ -34,7 +34,6 @@
         - It would be easier to read in a `.json` file for paths specific to each of our local environments that point to the shared helium directory.
         - For secrets/private information such as API keys and other passwords that *need* to be kept private, we can use a `.env` file and read them in.
             - Either way, we should never commit configuration/environment files that are specific to our local development environment.
-    - We can now edit the website locally with all the data and files we need available to us!
 
 ### Wednesday (6-11)
 - Changed `27. A101 CLSL` to `27. CLSLA Basement` on all website .html, .js, and .py files (except for the total page graphs because those PNGs are made and stored on the RPis staticly)
@@ -77,6 +76,10 @@
 ### Thursday (6-12)
 
 - Wrote documentation (such as this file) for most of the day.
+- Got local development working for the website by using a python server with the command `python -m http.server 8000 --cgi`
+
+    - We can now edit the website locally with all the data and files we need available to us!
+        - Just need good documentation for environment stuff (.env, venv/, config.json, pre-commit hooks, and requirements.txt)
 
 ### Friday (6-13)
 
