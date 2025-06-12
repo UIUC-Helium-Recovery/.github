@@ -43,9 +43,10 @@
 
 - [ ] Set up website dev workflow
     - [ ] Figure out how to locally (cross-platform) connect to shared directory 
+    - [ ] Use .env, pre-hook-commits with python scipt to change file paths
 
 - [ ] Document technologies
-    - [ ] How to use git
+    - [x] How to use git
     - [x] How to navigate the GitHub
     - [ ] How to use the Bash Shell
     - [ ] How to program properly in Python
