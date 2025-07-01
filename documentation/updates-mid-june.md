@@ -64,10 +64,10 @@
         - [ ] For us to change the `Select |> meters` dropdown graph so that only data points on individual days are connected by lines and not on multi-day periods.
         - [ ] Add zeros to the graphs when there is no data logged
             - Have a separate indication for data loss/mistakes
+        - [ ] A tabular/graphical visualization of the total reading in real-time
         - [ ] A tabular/graphical visualization of flow rate updated in real-time
             - So adding a table column / graph that spits out the average rate of change of helium flow (i.e., second_quantity - first_quantity / second_time - first_time)
             - **Note**: never change the underlying csv data - this is to be computed on top of that.
-        - [ ] A tabular/graphical visualization of the total reading in real-time
         - [ ] A tabular/graphical visualization of the % efficiency per month
             - Chemistry (`meter 27`) gets a big fill every month over a three-day span
                 - Typically its from Monday-Wednesday (4th Monday of the month)
