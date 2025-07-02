@@ -2,8 +2,8 @@
 
 - **Author**: Luke Marren
 - **Recent Updates**:
-  - Date: 6-12-25
-  - Maintainer(s): Luke Marren
+  - Date: 7-1-25
+  - Maintainer(s): Luke Marren, Dom Bogdan
 
 ## Table of Contents
 
